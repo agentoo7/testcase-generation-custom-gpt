@@ -1,0 +1,10 @@
+Test Case Name,Objective,Precondition,Status,Test Step,Expected Result,Priority,Label
+Edit Event Start & End Time modal defaults,"- Purpose: Verify user can open Event Start and End Time modal and see correct default values
+- JIRA Link: https://hudljira.atlassian.net/browse/DCQ-1090
+- Story: Edit Performing Arts Session
+- Scenario: Access Session management, click edit icon, see modal fields
+- Expected Result: Modal appears, All day toggle visible, Start time=7:00 PM, End time=11:00 PM",User logged in with Editor permission or Internal admin,Approved,Navigate to Session management tab,Season details shown,Critical,Ready-For-Automation; ai-customized
+,,,,Click edit icon for session start/end date,Modal opens with correct fields,,
+,,,,"Check 'All day event' toggle exists",Toggle displayed and enabled,,
+,,,,Check default start time,Default is 7:00 PM,,
+,,,,Check default end time,Default is start+4 hours (11:00 PM),,
